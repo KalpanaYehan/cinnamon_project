@@ -1,0 +1,120 @@
+body {
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+#banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 24px;
+    color: maroon;
+    font-size: 80px ;
+}
+h3{
+    font-family: sans-serif;
+    text-shadow: 3cm;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+    max-width: 900px;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+#pic{
+    width:100% ;
+    height: 300px;
+    object-fit: cover;
+}
+#para{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+}
+#exporters{
+    padding:10px 20px;
+    background-color:antiquewhite ;
+    border: 3px solid brown;
+    max-width: 860px;
+    margin: 10px auto;
+}
+#footer{
+    background-color:#eee ;
+    margin: 10px 0px;
+    padding: 20px 50px;
+    text-align: center;
+    color: gray;
+    
+}
+#footer_links{
+    list-style: none;
+}
+#footer_links li{
+    display: inline;
+    margin: 16px;
+}
+#table{
+    width:100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    max-width: 900px;
+    margin: 20px auto 60px auto;
+    padding: 5px;
+}
+#tablename{
+    text-align: center;
+    
+}
+#table th{
+    border: 1px solid black;
+    padding:4px 8px;
+    text-align: center;
+    background-color: #a07154;
+    
+}
+#table td{
+    padding: 4px 8px;
+    border: 1px solid gray;
+
+}
+#table tr:nth-child(odd){
+    background-color: #d3bbac;
+}
+
+#application{
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 8px;
+    border: solid 1px black;
+    
+}
+
+.form-group{
+    margin: 16px 0;
+}
+
+.form-group input[text],select,textarea{
+    width: 100%;
+}
+#submit{
+    width: 100px;;
+    background-color: #2563EB;
+    
+    min-width: 0;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1 rem;
+      
+}
